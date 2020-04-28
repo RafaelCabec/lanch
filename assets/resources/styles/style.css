@@ -1,6 +1,17 @@
 body {
-    -webkit-gradient :(linear, left top, right top, from(#CCCCCC), to(#000000));
+    background: -webkit-gradient(linear, left top, left bottom,from(#f8951d), to(#feb614)) no-repeat;
+    background: -moz-linear-gradient(#f8951d, #feb614);
+    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#f8951d', EndColorStr='#feb614');           
+    background:-ms-linear-gradient(top,  #f8951d, #feb614);
     display: flex;
     min-height: 100vh;
     flex-direction: column;
 }
+
+header{
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+
+
