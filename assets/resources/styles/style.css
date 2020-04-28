@@ -1,0 +1,6 @@
+body {
+    -webkit-gradient :(linear, left top, right top, from(#CCCCCC), to(#000000));
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
